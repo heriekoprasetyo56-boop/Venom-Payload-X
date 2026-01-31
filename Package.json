@@ -1,23 +1,25 @@
 {
-  "name": "venom-payload-x",
-  "version": "1.0.0",
-  "description": "Bot WhatsApp + Telegram untuk Termux dengan fitur manajemen & koneksi pairing code",
+  "name": "VENOM-Payload-X",
+  "version": "1.0",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.7",
-    "telegraf": "^4.16.3",
-    "pino": "^8.17.2",
-    "chalk": "^4.1.2",
-    "lowdb": "^6.0.1",
-    "readline-sync": "^1.4.10"
+    "@whiskeysockets/baileys": "github:HeriKeyzenlocker/baileys-zen",
+    // tambahkan dependensi lain di sini...
   },
-  "author": "HeriKeyzora (Developer Utama)",
+  "keywords": ["whatsapp-bot", "automation", "payload", "venom", "baileys-custom"],
+  "author": {
+    "name": "heriekoprasetyo56-boop",
+    "url": "https://github.com/heriekoprasetyo56-boop",
+    "email": "heriekoprasetyo56@example.com"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/heriekoprasetyo56-boop/Venom-Payload-X",
   "repository": {
     "type": "git",
-    "url": "https://github.com/heriekoprasetyo56-boop/HeriTezzRorw.git"
+    "url": "git+https://github.com/heriekoprasetyo56-boop/Venom-Payload-X.git"
   },
-  "license": "ISC"
+  "description": "VENOM Payload X: Bot otomatis WhatsApp dengan payload berbahaya, dikembangkan oleh heriekoprasetyo56-boop. Berjalan lancar dengan versi kustom Baileys—kuasai interaksi obrolan dengan efisiensi maksimal."
 }
